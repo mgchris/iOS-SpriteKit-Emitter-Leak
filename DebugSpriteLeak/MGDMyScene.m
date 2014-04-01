@@ -14,16 +14,14 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        self.backgroundColor = [SKColor blackColor];
         
-        SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
-        
-        myLabel.text = @"Hello, World!";
-        myLabel.fontSize = 30;
-        myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
+        NSString* particlePath = [[NSBundle mainBundle] pathForResource:@"fire" ofType:@"sks"];
+        SKEmitterNode* emitter = [NSKeyedUnarchiver unarchiveObjectWithFile:particlePath];
+        emitter.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMidY(self.frame));
         
-        [self addChild:myLabel];
+        [self addChild:emitter];
     }
     return self;
 }

@@ -24,6 +24,8 @@
 		C2C3B5F518EA633E0061195A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5D018EA633E0061195A /* UIKit.framework */; };
 		C2C3B5FD18EA633E0061195A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B5FB18EA633E0061195A /* InfoPlist.strings */; };
 		C2C3B5FF18EA633E0061195A /* DebugSpriteLeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3B5FE18EA633E0061195A /* DebugSpriteLeakTests.m */; };
+		C2C3B60A18EA63630061195A /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B60818EA63630061195A /* fire.sks */; };
+		C2C3B60B18EA63630061195A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B60918EA63630061195A /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		C2C3B5FA18EA633E0061195A /* DebugSpriteLeakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugSpriteLeakTests-Info.plist"; sourceTree = "<group>"; };
 		C2C3B5FC18EA633E0061195A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2C3B5FE18EA633E0061195A /* DebugSpriteLeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugSpriteLeakTests.m; sourceTree = "<group>"; };
+		C2C3B60818EA63630061195A /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		C2C3B60918EA63630061195A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				C2C3B5E618EA633E0061195A /* MGDMyScene.h */,
 				C2C3B5E718EA633E0061195A /* MGDMyScene.m */,
 				C2C3B5E918EA633E0061195A /* Spaceship.png */,
+				C2C3B60818EA63630061195A /* fire.sks */,
+				C2C3B60918EA63630061195A /* spark.png */,
 				C2C3B5EB18EA633E0061195A /* Images.xcassets */,
 				C2C3B5D518EA633E0061195A /* Supporting Files */,
 			);
@@ -242,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C3B5D918EA633E0061195A /* InfoPlist.strings in Resources */,
+				C2C3B60B18EA63630061195A /* spark.png in Resources */,
 				C2C3B5EC18EA633E0061195A /* Images.xcassets in Resources */,
+				C2C3B60A18EA63630061195A /* fire.sks in Resources */,
 				C2C3B5EA18EA633E0061195A /* Spaceship.png in Resources */,
 				C2C3B5E218EA633E0061195A /* Main.storyboard in Resources */,
 			);
