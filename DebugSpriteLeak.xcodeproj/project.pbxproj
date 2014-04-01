@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2C3B5CD18EA633E0061195A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5CC18EA633E0061195A /* Foundation.framework */; };
+		C2C3B5CF18EA633E0061195A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5CE18EA633E0061195A /* CoreGraphics.framework */; };
+		C2C3B5D118EA633E0061195A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5D018EA633E0061195A /* UIKit.framework */; };
+		C2C3B5D318EA633E0061195A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5D218EA633E0061195A /* SpriteKit.framework */; };
+		C2C3B5D918EA633E0061195A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B5D718EA633E0061195A /* InfoPlist.strings */; };
+		C2C3B5DB18EA633E0061195A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3B5DA18EA633E0061195A /* main.m */; };
+		C2C3B5DF18EA633E0061195A /* MGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3B5DE18EA633E0061195A /* MGDAppDelegate.m */; };
+		C2C3B5E218EA633E0061195A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B5E018EA633E0061195A /* Main.storyboard */; };
+		C2C3B5E518EA633E0061195A /* MGDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3B5E418EA633E0061195A /* MGDViewController.m */; };
+		C2C3B5E818EA633E0061195A /* MGDMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3B5E718EA633E0061195A /* MGDMyScene.m */; };
+		C2C3B5EA18EA633E0061195A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B5E918EA633E0061195A /* Spaceship.png */; };
+		C2C3B5EC18EA633E0061195A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B5EB18EA633E0061195A /* Images.xcassets */; };
+		C2C3B5F318EA633E0061195A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5F218EA633E0061195A /* XCTest.framework */; };
+		C2C3B5F418EA633E0061195A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5CC18EA633E0061195A /* Foundation.framework */; };
+		C2C3B5F518EA633E0061195A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C3B5D018EA633E0061195A /* UIKit.framework */; };
+		C2C3B5FD18EA633E0061195A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2C3B5FB18EA633E0061195A /* InfoPlist.strings */; };
+		C2C3B5FF18EA633E0061195A /* DebugSpriteLeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C3B5FE18EA633E0061195A /* DebugSpriteLeakTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2C3B5F618EA633E0061195A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C3B5C118EA633E0061195A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C3B5C818EA633E0061195A;
+			remoteInfo = DebugSpriteLeak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2C3B5C918EA633E0061195A /* DebugSpriteLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugSpriteLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3B5CC18EA633E0061195A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2C3B5CE18EA633E0061195A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2C3B5D018EA633E0061195A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2C3B5D218EA633E0061195A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C2C3B5D618EA633E0061195A /* DebugSpriteLeak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugSpriteLeak-Info.plist"; sourceTree = "<group>"; };
+		C2C3B5D818EA633E0061195A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2C3B5DA18EA633E0061195A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2C3B5DC18EA633E0061195A /* DebugSpriteLeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DebugSpriteLeak-Prefix.pch"; sourceTree = "<group>"; };
+		C2C3B5DD18EA633E0061195A /* MGDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDAppDelegate.h; sourceTree = "<group>"; };
+		C2C3B5DE18EA633E0061195A /* MGDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDAppDelegate.m; sourceTree = "<group>"; };
+		C2C3B5E118EA633E0061195A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2C3B5E318EA633E0061195A /* MGDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDViewController.h; sourceTree = "<group>"; };
+		C2C3B5E418EA633E0061195A /* MGDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDViewController.m; sourceTree = "<group>"; };
+		C2C3B5E618EA633E0061195A /* MGDMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDMyScene.h; sourceTree = "<group>"; };
+		C2C3B5E718EA633E0061195A /* MGDMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDMyScene.m; sourceTree = "<group>"; };
+		C2C3B5E918EA633E0061195A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		C2C3B5EB18EA633E0061195A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2C3B5F118EA633E0061195A /* DebugSpriteLeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebugSpriteLeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3B5F218EA633E0061195A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2C3B5FA18EA633E0061195A /* DebugSpriteLeakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugSpriteLeakTests-Info.plist"; sourceTree = "<group>"; };
+		C2C3B5FC18EA633E0061195A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2C3B5FE18EA633E0061195A /* DebugSpriteLeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugSpriteLeakTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C3B5C618EA633E0061195A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3B5CF18EA633E0061195A /* CoreGraphics.framework in Frameworks */,
+				C2C3B5D118EA633E0061195A /* UIKit.framework in Frameworks */,
+				C2C3B5D318EA633E0061195A /* SpriteKit.framework in Frameworks */,
+				C2C3B5CD18EA633E0061195A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C3B5EE18EA633E0061195A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3B5F318EA633E0061195A /* XCTest.framework in Frameworks */,
+				C2C3B5F518EA633E0061195A /* UIKit.framework in Frameworks */,
+				C2C3B5F418EA633E0061195A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2C3B5C018EA633E0061195A = {
+			isa = PBXGroup;
+			children = (
+				C2C3B5D418EA633E0061195A /* DebugSpriteLeak */,
+				C2C3B5F818EA633E0061195A /* DebugSpriteLeakTests */,
+				C2C3B5CB18EA633E0061195A /* Frameworks */,
+				C2C3B5CA18EA633E0061195A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2C3B5CA18EA633E0061195A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3B5C918EA633E0061195A /* DebugSpriteLeak.app */,
+				C2C3B5F118EA633E0061195A /* DebugSpriteLeakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2C3B5CB18EA633E0061195A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3B5CC18EA633E0061195A /* Foundation.framework */,
+				C2C3B5CE18EA633E0061195A /* CoreGraphics.framework */,
+				C2C3B5D018EA633E0061195A /* UIKit.framework */,
+				C2C3B5D218EA633E0061195A /* SpriteKit.framework */,
+				C2C3B5F218EA633E0061195A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2C3B5D418EA633E0061195A /* DebugSpriteLeak */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3B5DD18EA633E0061195A /* MGDAppDelegate.h */,
+				C2C3B5DE18EA633E0061195A /* MGDAppDelegate.m */,
+				C2C3B5E018EA633E0061195A /* Main.storyboard */,
+				C2C3B5E318EA633E0061195A /* MGDViewController.h */,
+				C2C3B5E418EA633E0061195A /* MGDViewController.m */,
+				C2C3B5E618EA633E0061195A /* MGDMyScene.h */,
+				C2C3B5E718EA633E0061195A /* MGDMyScene.m */,
+				C2C3B5E918EA633E0061195A /* Spaceship.png */,
+				C2C3B5EB18EA633E0061195A /* Images.xcassets */,
+				C2C3B5D518EA633E0061195A /* Supporting Files */,
+			);
+			path = DebugSpriteLeak;
+			sourceTree = "<group>";
+		};
+		C2C3B5D518EA633E0061195A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3B5D618EA633E0061195A /* DebugSpriteLeak-Info.plist */,
+				C2C3B5D718EA633E0061195A /* InfoPlist.strings */,
+				C2C3B5DA18EA633E0061195A /* main.m */,
+				C2C3B5DC18EA633E0061195A /* DebugSpriteLeak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2C3B5F818EA633E0061195A /* DebugSpriteLeakTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3B5FE18EA633E0061195A /* DebugSpriteLeakTests.m */,
+				C2C3B5F918EA633E0061195A /* Supporting Files */,
+			);
+			path = DebugSpriteLeakTests;
+			sourceTree = "<group>";
+		};
+		C2C3B5F918EA633E0061195A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3B5FA18EA633E0061195A /* DebugSpriteLeakTests-Info.plist */,
+				C2C3B5FB18EA633E0061195A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2C3B5C818EA633E0061195A /* DebugSpriteLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C3B60218EA633E0061195A /* Build configuration list for PBXNativeTarget "DebugSpriteLeak" */;
+			buildPhases = (
+				C2C3B5C518EA633E0061195A /* Sources */,
+				C2C3B5C618EA633E0061195A /* Frameworks */,
+				C2C3B5C718EA633E0061195A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebugSpriteLeak;
+			productName = DebugSpriteLeak;
+			productReference = C2C3B5C918EA633E0061195A /* DebugSpriteLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2C3B5F018EA633E0061195A /* DebugSpriteLeakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C3B60518EA633E0061195A /* Build configuration list for PBXNativeTarget "DebugSpriteLeakTests" */;
+			buildPhases = (
+				C2C3B5ED18EA633E0061195A /* Sources */,
+				C2C3B5EE18EA633E0061195A /* Frameworks */,
+				C2C3B5EF18EA633E0061195A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2C3B5F718EA633E0061195A /* PBXTargetDependency */,
+			);
+			name = DebugSpriteLeakTests;
+			productName = DebugSpriteLeakTests;
+			productReference = C2C3B5F118EA633E0061195A /* DebugSpriteLeakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2C3B5C118EA633E0061195A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MGD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Morphosis Games";
+				TargetAttributes = {
+					C2C3B5F018EA633E0061195A = {
+						TestTargetID = C2C3B5C818EA633E0061195A;
+					};
+				};
+			};
+			buildConfigurationList = C2C3B5C418EA633E0061195A /* Build configuration list for PBXProject "DebugSpriteLeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2C3B5C018EA633E0061195A;
+			productRefGroup = C2C3B5CA18EA633E0061195A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C3B5C818EA633E0061195A /* DebugSpriteLeak */,
+				C2C3B5F018EA633E0061195A /* DebugSpriteLeakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C3B5C718EA633E0061195A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3B5D918EA633E0061195A /* InfoPlist.strings in Resources */,
+				C2C3B5EC18EA633E0061195A /* Images.xcassets in Resources */,
+				C2C3B5EA18EA633E0061195A /* Spaceship.png in Resources */,
+				C2C3B5E218EA633E0061195A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C3B5EF18EA633E0061195A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3B5FD18EA633E0061195A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C3B5C518EA633E0061195A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3B5DB18EA633E0061195A /* main.m in Sources */,
+				C2C3B5DF18EA633E0061195A /* MGDAppDelegate.m in Sources */,
+				C2C3B5E518EA633E0061195A /* MGDViewController.m in Sources */,
+				C2C3B5E818EA633E0061195A /* MGDMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C3B5ED18EA633E0061195A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3B5FF18EA633E0061195A /* DebugSpriteLeakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2C3B5F718EA633E0061195A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C3B5C818EA633E0061195A /* DebugSpriteLeak */;
+			targetProxy = C2C3B5F618EA633E0061195A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2C3B5D718EA633E0061195A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C3B5D818EA633E0061195A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2C3B5E018EA633E0061195A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C3B5E118EA633E0061195A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2C3B5FB18EA633E0061195A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C3B5FC18EA633E0061195A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2C3B60018EA633E0061195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2C3B60118EA633E0061195A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C3B60318EA633E0061195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebugSpriteLeak/DebugSpriteLeak-Prefix.pch";
+				INFOPLIST_FILE = "DebugSpriteLeak/DebugSpriteLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2C3B60418EA633E0061195A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebugSpriteLeak/DebugSpriteLeak-Prefix.pch";
+				INFOPLIST_FILE = "DebugSpriteLeak/DebugSpriteLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2C3B60618EA633E0061195A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DebugSpriteLeak.app/DebugSpriteLeak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebugSpriteLeak/DebugSpriteLeak-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DebugSpriteLeakTests/DebugSpriteLeakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2C3B60718EA633E0061195A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DebugSpriteLeak.app/DebugSpriteLeak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebugSpriteLeak/DebugSpriteLeak-Prefix.pch";
+				INFOPLIST_FILE = "DebugSpriteLeakTests/DebugSpriteLeakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C3B5C418EA633E0061195A /* Build configuration list for PBXProject "DebugSpriteLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C3B60018EA633E0061195A /* Debug */,
+				C2C3B60118EA633E0061195A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C3B60218EA633E0061195A /* Build configuration list for PBXNativeTarget "DebugSpriteLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C3B60318EA633E0061195A /* Debug */,
+				C2C3B60418EA633E0061195A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2C3B60518EA633E0061195A /* Build configuration list for PBXNativeTarget "DebugSpriteLeakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C3B60618EA633E0061195A /* Debug */,
+				C2C3B60718EA633E0061195A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2C3B5C118EA633E0061195A /* Project object */;
+}
